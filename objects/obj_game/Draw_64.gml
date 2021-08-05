@@ -13,6 +13,13 @@ switch(room){
 		break;
 
 	case rm_start:
-		
+		if(keyboard_check(ord(1))){
+			global.player = 1;
+			room_goto(rm_game);
+		}
+			else if (keyboard_check(ord(2))){
+			global.player = 2;
+			room_goto(rm_game);
+		}
 		break;
 }

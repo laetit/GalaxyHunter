@@ -10,3 +10,9 @@ with(other){
 
 }
 
+/*if(obj_bullet.posx > room.height){
+	instance_destroy();
+	
+	VERIFICAR COMO ACABA COM A BALA QUANDO SAI DA TELA
+}*/
+

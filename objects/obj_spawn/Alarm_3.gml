@@ -4,8 +4,5 @@ var spawn_pos = random_range(25, room_width-32)
 
 
 instance_create_layer(spawn_pos, -5, "Instances", obj_inimigo);
-
-
 	
-	
-	alarm[3] = 120
+alarm[3] = 120;
