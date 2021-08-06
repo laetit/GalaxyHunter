@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_inimigos",
+    "path": "objects/obj_inimigos/obj_inimigos.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Inimigos comum",
+    "path": "folders/Objects/Inimigos/Inimigos comum.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_inimigo",
