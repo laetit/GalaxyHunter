@@ -6,3 +6,6 @@ event_inherited();
 HP = 10*2;
 
 
+
+
+alarm[1] = 60

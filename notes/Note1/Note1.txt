@@ -1,0 +1,5 @@
+c_aqua = não visivel no ceu preto;
+
+c_red = visível
+
+c_lime = não visivel no ceu preto;

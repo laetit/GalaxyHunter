@@ -3,6 +3,6 @@
 var spawn_pos = random_range(25, room_width-32)
 
 
-instance_create_layer(spawn_pos, -5, "Instances", obj_inimigo2);
+instance_create_layer(spawn_pos, -5, "Instances",choose(obj_inimigo,obj_inimigo2));
 	
 alarm[3] = 60;

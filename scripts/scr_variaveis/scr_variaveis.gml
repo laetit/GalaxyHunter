@@ -7,4 +7,4 @@ global.score = 0;
 global.hs = 0;
 global.colidiu=0;
 global.vida_braco = 10;
-
+global.cor = 0;
