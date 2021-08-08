@@ -2,7 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 
-alarm[2] = 30
+alarm[1] = 60
 
 
 

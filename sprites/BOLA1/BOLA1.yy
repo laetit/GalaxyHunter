@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Tiros Boss",
+    "path": "folders/Sprites/Inimigo/Boss/Tiros Boss.yy",
   },
   "resourceVersion": "1.0",
   "name": "BOLA1",
