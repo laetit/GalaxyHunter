@@ -3,7 +3,8 @@
 switch(room){
 	case rm_game:
 		draw_text(10,10,"SCORE:"+ string(global.score));
-		draw_text(10,30,"Cor:"+ string(global.cor));
+		draw_text(10,30,"HIGH SCORE:"+ string(global.hs));
+		draw_text(10,50,"Cor:"+ string(global.cor));
 		break;
 		
 	case rm_gameover:

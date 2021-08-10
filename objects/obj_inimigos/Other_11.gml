@@ -3,6 +3,6 @@
 HP -= 1;
 
 if( HP <= 0){
-
+	morte_tiro = true;
 	instance_destroy();
 }

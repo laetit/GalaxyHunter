@@ -12,4 +12,5 @@ if(room == rm_game){
 		
 		
 	}
+	alarm[3] = 120;
 }

@@ -7,5 +7,6 @@
 
 
 speed =1
+var tick = irandom_range(10,60);
 
-alarm[0]= 30
+alarm[0]= tick

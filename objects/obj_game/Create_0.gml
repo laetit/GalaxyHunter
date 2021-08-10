@@ -4,3 +4,11 @@
 draw_set_font(fnt_txt);
 
 randomize();
+
+last_score = 0;
+dificuldade = 0;
+boss = false;
+
+//inimigos = 0;
+
+//alarm[4] = 60;
