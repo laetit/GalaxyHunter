@@ -3,7 +3,7 @@
 event_inherited();
 
 
-HP = 10*2;
+HP = (global.speed*10)*2;
 
 
 

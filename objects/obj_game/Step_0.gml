@@ -21,6 +21,7 @@ if(global.hs < global.score){
 if(global.real_score >= (last_score + 200)){
 	last_score = global.real_score;
 	dificuldade += 1;
+	global.speed = dificuldade;
 	boss = true;
-	alarm[4] = 180;
+	alarm[4] = 360;
 }

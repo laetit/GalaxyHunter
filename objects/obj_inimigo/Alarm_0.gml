@@ -6,7 +6,7 @@
 	
 
 
-speed =1
+speed = 1 + global.speed/4;
 var tick = irandom_range(10,60);
 
 alarm[0]= tick

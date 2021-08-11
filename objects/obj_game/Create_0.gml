@@ -12,3 +12,5 @@ boss = false;
 //inimigos = 0;
 
 //alarm[4] = 60;
+
+alarm[3] = 240;

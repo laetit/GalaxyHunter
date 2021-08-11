@@ -1,5 +1,5 @@
 /// @description verificação de inputs
-
+event_inherited();
 
 
 

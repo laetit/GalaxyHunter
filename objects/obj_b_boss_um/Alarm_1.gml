@@ -4,10 +4,10 @@
 
 
 
-newbullet1 = instance_create_depth(x - 32, y + 0, -2, obj_tiroboss);
+instance_create_depth(x - 32, y + 0, -2, obj_tiroboss);
 
 	
 		 
 		
-alarm[2] = 30
+alarm[2] = 90
 	

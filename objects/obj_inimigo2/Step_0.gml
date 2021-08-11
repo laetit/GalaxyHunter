@@ -4,4 +4,4 @@
 
 
 direction = 270;
-speed = 0.5;
+speed = 0.5 + global.speed/4;

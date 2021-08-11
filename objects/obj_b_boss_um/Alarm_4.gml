@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-newbullet2.speed = 0.5;
-		 
+
+
 		
-		
-	alarm[5] = 60
+instance_create_depth(x + 20, y + 21, -2, obj_tiroboss);
+	
+	
+	
+alarm[1] = 150

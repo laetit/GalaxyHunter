@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-newbullet4.speed = 0.5;
-		 
-		
-	
-alarm[1] = 120;
+atingido = false;
+invulneravel = false;
+flashAlpha = 0;
+flashColor = c_white;
