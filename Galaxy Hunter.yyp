@@ -12,6 +12,8 @@
     {"id":{"name":"spr_josefina","path":"sprites/spr_josefina/spr_josefina.yy",},"order":3,},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},"order":1,},
     {"id":{"name":"BOLA1","path":"sprites/BOLA1/BOLA1.yy",},"order":0,},
+    {"id":{"name":"tiro","path":"sounds/tiro/tiro.yy",},"order":1,},
+    {"id":{"name":"moveEnemy","path":"sounds/moveEnemy/moveEnemy.yy",},"order":0,},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},"order":0,},
     {"id":{"name":"fnt_txt","path":"fonts/fnt_txt/fnt_txt.yy",},"order":0,},
     {"id":{"name":"obj_b_boss_um","path":"objects/obj_b_boss_um/obj_b_boss_um.yy",},"order":1,},

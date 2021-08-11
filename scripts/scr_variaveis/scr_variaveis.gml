@@ -8,5 +8,5 @@ global.score = 0;
 global.hs = 0;
 global.speed =0;
 global.colidiu = 0;
-
+global.dano = 0;
 global.cor = 0;

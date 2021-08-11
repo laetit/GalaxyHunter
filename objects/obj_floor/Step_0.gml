@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-event_inherited();
-
-direction = 270;
-speed = 0.5 + global.speed/4;
+if(tela = false && global.dano < 0){
+	alarm[0] = 0.5*room_speed;
+	tela = true;
+}

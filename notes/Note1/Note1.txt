@@ -3,3 +3,31 @@ c_aqua = não visivel no ceu preto;
 c_red = visível
 
 c_lime = não visivel no ceu preto;
+
+
+
+
+usar para fazer piscar branco -
+
+Para trigar preciso colocar que : flashAlpha =1
+
+no  create:
+flashAlpha = 0;
+flashColor = c_white;
+
+no step: 
+if(flashAlpha > 0){
+	
+	flashAlpha -= 0.05;	
+}
+
+no draw:
+draw_self();
+ if(flashAlpha > 0){
+	shader_set(shFlash);
+	
+	draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,
+					image_yscale,image_angle,flashColor,flashAlpha)
+	 
+	 shader_reset();
+ }

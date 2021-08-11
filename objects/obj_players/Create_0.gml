@@ -2,5 +2,5 @@
 // You can write your code in this editor
 atingido = false;
 invulneravel = false;
-flashAlpha = 0;
-flashColor = c_white;
+draw_set_font(fnt_txt);
+dano = 0;
