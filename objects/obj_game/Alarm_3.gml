@@ -3,7 +3,7 @@
 if(boss == false && global.invasao == false){
 	audio_play_sound(moveEnemy,2,false);
 	var spawn_pos = random_range(25, room_width-32)
-	 instance_create_layer(spawn_pos, -10, "Instances",choose(obj_inimigo,obj_inimigo2));
+	 instance_create_layer(spawn_pos, 0, "Instances",choose(obj_inimigo,obj_inimigo2));
 	//inimigos += 1;
 	var tick = irandom_range(60,120);
 	alarm[3] = tick;

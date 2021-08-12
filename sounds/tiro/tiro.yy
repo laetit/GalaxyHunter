@@ -1,5 +1,5 @@
 {
-  "compression": 0,
+  "compression": 3,
   "volume": 1.0,
   "preload": false,
   "bitRate": 128,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "tiro.wav",
-  "duration": 0.433333,
+  "soundFile": "tiro.ogg",
+  "duration": 0.437506,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
