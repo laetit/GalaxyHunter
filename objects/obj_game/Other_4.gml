@@ -9,6 +9,15 @@ global.score = 0;
 global.hs = 0;
 global.speed =0;
 global.dano = 0;
+boss = false;
+last_score = 0;
+dificuldade = 0;
+if(!audio_is_playing(music_game)){
+	audio_play_sound(music_game,4,false);
+	
+}else {
+	audio_play_sound(music_game,4,true);	
+}
 if(global.HScore >	global.bestscore){
 	global.bestscore = global.HScore;
 

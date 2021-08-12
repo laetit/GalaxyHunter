@@ -26,6 +26,12 @@ switch(room){
 		break;
 
 	case rm_start:
+		draw_set_halign(fa_center);
+		var c = c_white;
+		draw_text_transformed_color(1024/2,250,"Press 1: 1 Player(A,W,D)",3,3,0,c,c,c,c,0.5);
+		draw_text_transformed_color(1024/2,300,"Press 2: 2 Players(left,up,right)",3,3,0,c,c,c,c,0.5);
+		draw_text(1024/2,450,"click on the screen to have sound");
+		draw_set_halign(fa_left);
 		if(keyboard_check(ord(1))){
 			global.player = 1;
 			room_goto(rm_game);

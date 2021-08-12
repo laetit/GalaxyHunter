@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "tiro.ogg",
-  "duration": 0.437506,
+  "soundFile": "damage.ogg",
+  "duration": 0.209819,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tiro",
+  "name": "damage",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "tiro.ogg",
-  "duration": 0.437506,
+  "soundFile": "music_game.ogg",
+  "duration": 30.7321548,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tiro",
+  "name": "music_game",
   "tags": [],
   "resourceType": "GMSound",
 }

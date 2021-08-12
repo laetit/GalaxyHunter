@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "tiro.ogg",
-  "duration": 0.437506,
+  "soundFile": "laser_Boss.ogg",
+  "duration": 0.44644,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tiro",
+  "name": "laser_Boss",
   "tags": [],
   "resourceType": "GMSound",
 }

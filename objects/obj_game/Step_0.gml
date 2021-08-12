@@ -9,17 +9,19 @@ if(global.invasao = false){
 
 	
 	}
-	else if(global.hs < global.score){
+	 if(global.hs < global.score){
 	
 		global.hs = global.score;
 	
 	}
-	if(global.real_score >= (last_score + 200)){
+	if(global.real_score >= (last_score + 300) && boss == false){
+		boss = true;
+		instance_destroy(obj_inimigo);
+		instance_destroy(obj_inimigo2);
 		last_score = global.real_score;
 		dificuldade += 1;
 		global.speed = dificuldade;
-		boss = true;
-		alarm[4] = 360;
+		alarm[4] = 120;
 }
 }
 
