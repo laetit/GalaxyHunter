@@ -15,8 +15,7 @@ dificuldade = 0;
 if(!audio_is_playing(music_game)){
 	audio_play_sound(music_game,4,false);
 	
-}else {
-	audio_play_sound(music_game,4,true);	
+
 }
 if(global.HScore >	global.bestscore){
 	global.bestscore = global.HScore;
