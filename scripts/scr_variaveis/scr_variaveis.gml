@@ -10,3 +10,5 @@ global.speed =0;
 global.colidiu = 0;
 global.dano = 0;
 global.cor = 0;
+global.HScore = 0;
+global.bestscore = 0;

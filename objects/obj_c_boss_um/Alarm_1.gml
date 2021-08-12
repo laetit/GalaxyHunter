@@ -3,5 +3,5 @@
 
 instance_create_depth(x  , y  , -2, obj_laserboss);
 
-
-alarm[1] = 120
+var tick = irandom_range(60,180);
+alarm[1] = tick;

@@ -2,6 +2,17 @@
 // You can write your code in this editor
 
 if(room == rm_game){
+
+global.invasao = false;
+global.real_score = 0;
+global.score = 0;
+global.hs = 0;
+global.speed =0;
+global.dano = 0;
+if(global.HScore >	global.bestscore){
+	global.bestscore = global.HScore;
+
+}
 	
 	if(global.player == 1){
 		instance_create_layer(157,140,"Instances", obj_josefina);
@@ -14,4 +25,7 @@ if(room == rm_game){
 		
 	}
 	//alarm[3] = 240;
+}if(room == rm_gameover){
+	instance_destroy(obj_boss);	
+	
 }
