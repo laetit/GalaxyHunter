@@ -10,6 +10,8 @@ var obj_braco = choose(obj_b_boss_um);
 instance_create_layer(96,20,"Instances",obj_cabeca1);
 instance_create_layer(96,20,"Instances",obj_braco);
 
+
+
 boss = true;
 
 //alarm[4] = 60;
