@@ -6,3 +6,4 @@ instance_create_layer(x  , y  , "Instances", obj_debris);
 morte_tiro = false;
 global.score += 25;
 SoundFX(Boss_explosion);
+global.boss += 1;

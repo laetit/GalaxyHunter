@@ -12,3 +12,6 @@ global.dano = 0;
 global.cor = 0;
 global.HScore = 0;
 global.bestscore = 0;
+global.volume = 0.1;
+global.boss = 0;
+global.especial = false;

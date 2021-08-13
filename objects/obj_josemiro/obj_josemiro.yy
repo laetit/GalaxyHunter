@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Josefina1",
-    "path": "sprites/spr_Josefina1/spr_Josefina1.yy",
+    "name": "P_Ship",
+    "path": "sprites/P_Ship/P_Ship.yy",
   },
   "solid": false,
   "visible": true,

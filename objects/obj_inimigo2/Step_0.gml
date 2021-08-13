@@ -4,4 +4,7 @@
 event_inherited();
 
 direction = 270;
-speed = 0.5 + global.speed/4;
+
+if(speed <2.25){
+	speed = 0.5 + global.speed/4;
+}
