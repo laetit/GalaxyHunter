@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-image_blend = c_aqua
+image_blend = c_aqua;
