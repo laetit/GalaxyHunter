@@ -5,10 +5,10 @@ if(atingido == true && invulneravel == false){
 	
 invulneravel = true;
 
-global.score -= 50/2;
-global.dano -= 50/2;
+global.score -= 100/2;
+global.dano -= 100/2;
 blink = true;
-alarm[0] = 180;
+alarm[0] = 120;
 alarm[1] = 0.25*room_speed;
 
 
