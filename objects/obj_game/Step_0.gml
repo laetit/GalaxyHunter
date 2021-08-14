@@ -1,6 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+audio_group_set_gain(audiogroup_default,global.volume,0);
+if(keyboard_check_pressed(ord("E")) && global.volume<1){
+	global.volume += 0.1;
+
+} else if (keyboard_check_pressed(ord("Q")) && global.volume>0){
+	global.volume -= 0.1;
+}
+
 if(global.invasao = false){
 	
 	if (global.score < 0 ){
