@@ -5,6 +5,7 @@ switch(room){
 		draw_text(10,10,"SCORE:"+ string(global.score));
 		draw_text(10,30,"RUN HIGH SCORE:"+ string(global.hs));
 		draw_text(10,50,"BEST SCORE:"+ string(global.bestscore));
+		draw_text(10,70,"BOSS:"+ string(global.boss));
 		break;
 		
 	case rm_gameover:
