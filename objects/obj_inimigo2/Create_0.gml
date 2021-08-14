@@ -2,4 +2,4 @@
 // You can write your code in this editor
 event_inherited();
 
-HP = 2*2;
+HP = 3*2;

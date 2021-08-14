@@ -8,7 +8,7 @@ invulneravel = true;
 global.score -= 100/2;
 global.dano -= 100/2;
 blink = true;
-alarm[0] = 180;
+alarm[0] = 150;
 alarm[1] = 0.25*room_speed;
 
 
