@@ -5,8 +5,6 @@ event_inherited();
 
 direction = 270;
 
-if(global.speed <6){
+if(speed <2.25){
 	speed = 0.5 + global.speed/4;
-} else {
-	speed = 0.5 + 6/4;
 }
