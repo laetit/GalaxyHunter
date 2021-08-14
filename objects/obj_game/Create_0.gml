@@ -16,3 +16,4 @@ boss = false;
 if(global.invasao = false && global.score = 0){
 alarm[3] = 240;
 }
+
